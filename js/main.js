@@ -12,7 +12,6 @@ function getRandomNumber(max) {
   return Math.ceil(Math.random() * max);
 }
 let randomNumber = getRandomNumber(10);
-console.log(randomNumber)
 
 
 let computerSelection = "";
@@ -92,7 +91,6 @@ function handlerClick(event) {
   playGame();
   anyGame();  
   randomNumber = getRandomNumber(10);
-  console.log(randomNumber);
 }
 
 //eventListener
